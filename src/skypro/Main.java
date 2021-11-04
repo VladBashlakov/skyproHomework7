@@ -19,13 +19,13 @@ public class Main {
         library.putInNewLibrary(book0);
         library.putInNewLibrary(book1);
         //Ввести название книги для поиска:
-        library.printBookInfo("Муму");
+        library.printBookInfo("Война и мир");
         //Ввести название книги и дату издательства, для изменения даты:
         library.changeBookAge("Война и мир", 999);
     }
 
     public static void putInLibrary(Book book, Book[] books) {
-        for (int i = 0; i < books.length - 1; i++) {
+        for (int i = 0; i < books.length; i++) {
             if (books[i] == null) {
                 books[i] = book;
                 break;
