@@ -1,8 +1,8 @@
 package skypro;
 
 public class Author {
-    String firstName;
-    String lastName;
+    private String firstName;
+    private String lastName;
 
     public Author(String firstName, String lastName) {
         this.firstName = firstName;
