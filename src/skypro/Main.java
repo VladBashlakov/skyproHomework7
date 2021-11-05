@@ -13,15 +13,15 @@ public class Main {
         Book[] books = new Book[5];
         putInLibrary(book0, books);
         putInLibrary(book1, books);
-        printLibrary(books);
+//        printLibrary(books);
 
         Library library = new Library(10);
         library.putInNewLibrary(book0);
         library.putInNewLibrary(book1);
-        //Ввести название книги для поиска:
-        library.printBookInfo("Война и мир");
-        //Ввести название книги и дату издательства, для изменения даты:
-        library.changeBookAge("Война и мир", 999);
+//        //Ввести название книги для поиска:
+//        library.printBookInfo("Война и мир");
+
+        System.out.println(library);
     }
 
     public static void putInLibrary(Book book, Book[] books) {
