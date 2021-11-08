@@ -3,8 +3,10 @@ package skypro;
 import java.util.Objects;
 
 public class Author {
-    private String firstName;
-    private String lastName;
+    private final String firstName;
+    private final String lastName;
+    Author author0 = new Author("Иван", "Тургенев");
+    Author author1 = new Author("Лев", "Толстой");
 
     public Author(String firstName, String lastName) {
         this.firstName = firstName;
